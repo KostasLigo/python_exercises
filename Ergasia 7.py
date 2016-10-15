@@ -9,7 +9,7 @@ def einai_tetragono_akeraiou(user_number):
     τετράγωνο ακεραίου.
     """
     if user_number == 0 or user_number == 1:
-        return False
+        return True
     else:
         temp = user_number // 2
         einai = [temp]
